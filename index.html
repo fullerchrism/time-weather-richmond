@@ -8,7 +8,29 @@
   </head>
   <body>
     <main class="card">
-      <h1>Richmond, VA</h1>
+      <h1 id="cityTitle">City Dashboard</h1>
+
+<div class="controls">
+  <label class="control">
+    <span class="control-label">City</span>
+    <select id="citySelect">
+        <option value="richmond">Richmond, VA</option>
+      <option value="dc">Washington, DC</option>
+      <option value="nyc">New York City</option>
+      <option value="london">London</option>
+      <option value="bristol">Bristol</option>
+    </select>
+  </label>
+
+  <label class="control">
+    <span class="control-label">Units</span>
+    <select id="unitSelect">
+      <option value="fahrenheit">°F</option>
+      <option value="celsius">°C</option>
+    </select>
+  </label>
+</div>
+
 
       <div class="row">
         <div class="label">Local time</div>
