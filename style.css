@@ -43,3 +43,28 @@ h1 {
   font-weight: 500;
   color: #666;
 }
+.map-wrap {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #eef0f6;
+}
+
+.map {
+  width: 100%;
+  height: 320px;
+  border: 1px solid #e6e8f0;
+  border-radius: 14px;
+  margin-top: 10px;
+}
+
+.map-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2b5fd9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
